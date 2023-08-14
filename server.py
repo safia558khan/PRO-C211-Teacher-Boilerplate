@@ -5,13 +5,6 @@ import time
 import os
 
 
-#For FTP Server
-# Student Boilerlate Code Start
-#pip install pyftpdlib < this should be installed
-from pyftpdlib.authorizers import DummyAuthorizer
-from pyftpdlib.handlers import FTPHandler
-from pyftpdlib.servers import FTPServer
-# Student Boilerlate Code End
 
 
 IP_ADDRESS = '127.0.0.1'
